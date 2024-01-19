@@ -1,5 +1,5 @@
 <?php
-include "model/conexion.php";
+include "../model/conexion.php";
 $id = $_GET["id"];
 
 $sql = $conexion->query(" select * from alumnos where id=$id ");
@@ -23,7 +23,7 @@ $sql = $conexion->query(" select * from alumnos where id=$id ");
         <h3 class="text-center alert alert-secondary">Modificar Registro de Alumno</h3>
         <input type="hidden" name="id" value="<?= $_GET["id"] ?>">
         <?php
-        include "controller/modificar_alumno.php";
+        include "../controller/modificar_alumno.php";
         while ($datos = $sql->fetch_object()) { ?>
 
             <div class="mb-3">

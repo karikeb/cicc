@@ -14,9 +14,6 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand ms-4 p-2" href="#">
-            <img src="assets/logo-completo.png" width="" height="40" alt="">
-        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,7 +33,32 @@
         </div>
     </nav>
 
-  
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow-lg">
+                    <div class="card-body p-5">
+                        <img src="../assets/children.png" width="100">
+                        <h1 class="card-title text-center">LISTADO ALUMNOS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col">
+                <div class="card shadow-lg">
+                    <div class="card-body p-5">
+                    <img src="../assets/satisfaction.png" width="100">
+                        <h1 class="card-title text-center">BOLETINES</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 </body>
