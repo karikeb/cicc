@@ -33,27 +33,32 @@
         </div>
     </nav>
 
-    <div class="container pt-5">
+    <div class="container pt-5 ">
         <div class="row">
             <div class="col">
-                <div class="card shadow-lg">
-                    <div class="card-body p-5">
-                        <img src="../assets/children.png" width="100">
-                        <h1 class="card-title text-center">LISTADO ALUMNOS</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="col-2">
+                <div class="card shadow-lg text-center mb-3" style="width: 30rem;">
+                    <div class="card-body">
+                    <img class="justify-content-sm-center" src="../assets/children.png" width="150">
 
-            </div>
-            <div class="col">
-                <div class="card shadow-lg">
-                    <div class="card-body p-5">
-                    <img src="../assets/satisfaction.png" width="100">
-                        <h1 class="card-title text-center">BOLETINES</h1>
+                        <h5 class="card-title"></h5>
+                        <a href="restring_listado.php" class="btn btn-primary btn-lg">Listado de Alumnos</a>
                     </div>
                 </div>
             </div>
+
+            <div class="col-2">
+            </div>
+
+            <div class="col">
+                <div class="card shadow-lg text-center mb-3" style="width: 30rem;">
+                    <div class="card-body">
+                    <img src="../assets/satisfaction.png" width="150">
+                        <h5 class="card-title"></h5>
+                        <a href="#" class="btn btn-primary btn-lg">Boletines</a>
+                    </div>
+                </div>
+            </div> 
+            
         </div>
     </div>
 
